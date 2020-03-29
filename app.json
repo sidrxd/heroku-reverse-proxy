@@ -17,11 +17,11 @@
 		},
                 "PASSWORD": {
                         "description" : "HTTPS basic auth password",
-                        "generator": "secret"
+                       
                 },
                 "USERNAME": {
                         "description" : "HTTPS basic auth username",
-                        "generator": "secret"
+                        
 	        }
 	      },
 	"stack": "heroku-18"
