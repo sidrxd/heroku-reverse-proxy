@@ -26,8 +26,8 @@ http {
 		}
 
 		# This forces HTTPS but we don't want that, we'll stay on port 80 http
-		# if ($http_x_forwarded_proto != "https") {
-		#   rewrite ^(.*)$ https://$host$1 permanent;
-		# }
+		 if ($http_x_forwarded_proto != "https") {
+		  rewrite ^(.*)$ https://$host$1 permanent;
+		 }
 	}
 }
