@@ -13,7 +13,7 @@
 	],
 	"env": {
 		"UPSTREAM_SERVER": {
-			"description": "URL of upstream server to which all requests should be proxied"
+			"description": "URL of upstream server to which all requests should be proxied eg.https://www.google.com"
 		},
                 "PASSWORD": {
                         "description" : "HTTPS basic auth password"
