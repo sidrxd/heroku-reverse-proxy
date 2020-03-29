@@ -15,6 +15,12 @@
 		"UPSTREAM_SERVER": {
 			"description": "URL of upstream server to which all requests should be proxied"
 		}
+		"BASIC_AUTH_USERNAME": {
+			"description": "Set auth_username "
+		}
+		"BASIC_AUTH_PASSWORD": {
+			"description": "set auth_password"
+		}
 	},
 	"stack": "heroku-18"
 }
