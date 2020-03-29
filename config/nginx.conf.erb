@@ -22,7 +22,7 @@ http {
                 if ($http_user_agent ~* "qihoobot|Baiduspider|Googlebot|Googlebot-Mobile|Googlebot-Image|Mediapartners-Google|Adsbot-Google|Feedfetcher-Google|Yahoo! Slurp|Yahoo! Slurp China|YoudaoBot|Sosospider|Sogou spider|Sogou web spider|MSNBot|ia_archiver|Tomato Bot") 
                 { 
                    return 403; 
-                          }
+                }
 		location / {
 			proxy_pass <%= ENV["UPSTREAM_SERVER"] %>;
 			proxy_http_version 1.1;
