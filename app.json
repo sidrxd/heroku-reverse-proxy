@@ -16,11 +16,11 @@
 			"description": "URL of upstream server to which all requests should be proxied"
 		},
                 "PASSWORD": {
-                        "description" : "HTTP basic auth password",
+                        "description" : "HTTPS basic auth password",
                         "generator": "secret"
                 },
                 "USERNAME": {
-                        "description" : "HTTP basic auth username",
+                        "description" : "HTTPS basic auth username",
                         "generator": "secret"
 	        },
 	"stack": "heroku-18"
