@@ -22,6 +22,7 @@
                 "USERNAME": {
                         "description" : "HTTPS basic auth username",
                         "generator": "secret"
-	        },
+	        }
+	      }
 	"stack": "heroku-18"
 }
