@@ -18,10 +18,10 @@ copy of the app, then Set `UPSTREAM_SERVER`, `PASSWORD`, `USERNAME` config vars.
 
 ## Credits
 
-Updated to heroku-18 stack and recent community build pack for nginx.
-Base on [funwhilelost/heroku-reverse-proxy](https://github.com/funwhilelost/heroku-reverse-proxy)
-Based on [octoberswimmer/heroku-reverse-proxy](https://github.com/octoberswimmer/heroku-reverse-proxy),
-originally forked from [api-proxy-3scale-heroku](https://github.com/Taytay/api-proxy-3scale-heroku).
+- Updated to heroku-18 stack and recent community build pack for nginx.
+- Based on [funwhilelost/heroku-reverse-proxy](https://github.com/funwhilelost/heroku-reverse-proxy),
+- Based on [octoberswimmer/heroku-reverse-proxy](https://github.com/octoberswimmer/heroku-reverse-proxy),
+- originally forked from [api-proxy-3scale-heroku](https://github.com/Taytay/api-proxy-3scale-heroku).
 
 ## Reference
 - [Heroku上のPHPアプリケーションにBASIC認証を導入する](https://mistymagich.wordpress.com/2016/02/12/nginx-basic-authentication-in-php-on-heroku/)
