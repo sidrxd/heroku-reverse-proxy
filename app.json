@@ -5,7 +5,7 @@
 		"reverse proxy",
 		"nginx"
 	],
-	"repository": "https://github.com/funwhilelost/heroku-reverse-proxy",
+	"repository": "https://github.com/fromxt/heroku-reverse-proxy",
 	"buildpacks": [
 		{
 			"url": "https://github.com/heroku/heroku-buildpack-nginx"
@@ -16,5 +16,5 @@
 			"description": "URL of upstream server to which all requests should be proxied"
 		}
 	},
-	"stack": "heroku-16"
+	"stack": "heroku-18"
 }
