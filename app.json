@@ -22,5 +22,5 @@
                         "description" : "HTTPS basic auth username"      
 	        }
 	      },
-	"stack": "heroku-18"
+	"stack": "heroku-20"
 }
