@@ -26,7 +26,7 @@ _USERNAME =  username_
 
 ## Credits
 
-- Updated to heroku-18 stack and recent community build pack for nginx.
+- Updated to heroku-20 stack and recent community build pack for nginx.
 - Based on [funwhilelost/heroku-reverse-proxy](https://github.com/funwhilelost/heroku-reverse-proxy),
 - Based on [octoberswimmer/heroku-reverse-proxy](https://github.com/octoberswimmer/heroku-reverse-proxy),
 - originally forked from [api-proxy-3scale-heroku](https://github.com/Taytay/api-proxy-3scale-heroku).
