@@ -25,7 +25,8 @@ http {
                    return 403; 
                 }
 		location /user/ {
-                        
+                        auth_basic              "Restricted";
+                        auth_basic_user_file    basic.htpasswd;
 			proxy_pass <%= ENV["UPSTREAM_SERVER"] %>;
 			proxy_http_version 1.1;
 			proxy_buffering off;
